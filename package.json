@@ -1,0 +1,15 @@
+{
+  "name": "bumblebee-heatmap",
+  "version": "1.0.0",
+  "description": "Web app used to generate artwork for Instrument's article, \"Automating Bumble Bee Identification\".",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "heatmap.js": "^2.0.5"
+  }
+}
