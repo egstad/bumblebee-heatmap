@@ -37,4 +37,20 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  padding: 5vw;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  background: 0;
+  color: white;
+  font-family: monospaced;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+nav {
+  mix-blend-mode: exclusion;
+  padding: 0.5em;
 }
