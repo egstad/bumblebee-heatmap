@@ -10,7 +10,7 @@ const resetHeatmapBtn = document.querySelector('.heatmap-reset')
 // ****************************************************************************
 const heatmapInstance = h337.create({
   container: heatmap,
-  radius: window.innerWidth * 0.06,
+  radius: window.innerWidth * 0.05,
   blur: 1,
 })
 
@@ -44,7 +44,7 @@ const saveHeatmap = (ev) => {
 // ****************************************************************************
 const resetHeatmap = (ev) => {
   var data = {
-    max: 100,
+    max: 5,
     min: 0,
     data: [],
   }
